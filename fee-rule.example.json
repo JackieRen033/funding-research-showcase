@@ -1,0 +1,14 @@
+{
+  "id": "example-confirmed-account-taker",
+  "exchange": "binance",
+  "symbol": "BTC/USDT",
+  "market": "spot",
+  "phase": "both",
+  "liquidity": "taker",
+  "bps": 7.5,
+  "source": "EXAMPLE ONLY: replace with confirmed account fee source and qualification",
+  "valid_from_ms": 1790092800000,
+  "valid_until_ms": 1790179200000,
+  "enabled": false,
+  "eligibility_confirmed": false
+}

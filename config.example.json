@@ -1,0 +1,49 @@
+{
+  "exchanges": [
+    "binance",
+    "okx",
+    "bybit",
+    "gate"
+  ],
+  "assets": [
+    "BTC",
+    "ETH"
+  ],
+  "database": "data/funding.sqlite3",
+  "poll_seconds": 60,
+  "event_poll_seconds": 15,
+  "pre_event_seconds": 3600,
+  "post_event_seconds": 300,
+  "timeout_seconds": 8,
+  "retries": 1,
+  "request_gap_seconds": 0.3,
+  "screen": {
+    "notional_usdt": 2000,
+    "min_net_bps": 5,
+    "extra_cost_bps": 5,
+    "max_latency_ms": 3000,
+    "max_age_seconds": 45,
+    "max_clock_skew_ms": 5000,
+    "candidate_window_seconds": 600,
+    "settlement_guard_seconds": 60,
+    "fees_bps": {
+      "binance": {
+        "spot": 10,
+        "perp": 5
+      },
+      "okx": {
+        "spot": 10,
+        "perp": 5
+      },
+      "bybit": {
+        "spot": 10,
+        "perp": 5.5
+      },
+      "gate": {
+        "spot": 10,
+        "perp": 5
+      }
+    },
+    "fee_rules": []
+  }
+}
